@@ -1,0 +1,31 @@
+
+/* Start Framework */ 
+
+.uppercase 
+{
+    text-transform: uppercase;
+}
+
+.head-border::after
+{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: $firstColor;
+    margin: 20px 0;
+    @media (max-width: $maxMobile) 
+    {
+        margin: 20px auto;
+    }
+}
+
+.head-border-center::after
+{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: $firstColor;
+    margin: 20px auto;
+}

@@ -1,0 +1,135 @@
+/* Start Header */ 
+
+.header
+{
+    background: url('../img/header/3.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    @media (max-width: $maxMobile) 
+    {
+        height: 850px; 
+        text-align: center;
+    }
+    .center-vh
+    {
+        margin-top: 25vh;
+        @media (max-width: $maxMobile) 
+        {
+            margin-top: 100px; 
+        }
+    }
+    .overlay 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: .5);
+    }
+    h1 
+    {
+        font-weight: bold;
+        font-size: 65px;
+        @media (max-width: $maxMobile) 
+        {
+            font-size: 50px; 
+        }
+        span 
+        {
+            font-weight: normal;
+            color: $firstColor;
+        }
+       & ~ .lead
+        {
+            font-size: 25px;
+            @media (max-width: $maxMobile) 
+            {
+                font-size: 17px; 
+            }
+            &:after
+            {
+                content: '';
+                display: block;
+                width: 55px;
+                height: 2px;
+                background-color: #fff;
+                margin: 25px 0;
+                @media (max-width: $maxMobile) 
+                {
+                    margin: 15px auto;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    button 
+    {
+        @extend %button;
+        background: transparent;
+        border: 2px solid #fff;
+        margin-top: 20px;
+        @media (max-width: $maxMobile) 
+        {
+            margin: 20px auto;
+        }
+        &:hover 
+        {
+            border: 2px solid #000;
+        }
+    }
+    form 
+    {
+        width: 360px;
+        background-color: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 7px 5px 10px #000;
+        h2
+        {
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            font-size: 18px;
+            padding: 20px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 30px;
+            span 
+            {
+                color: $firstColor;
+            }
+        }
+        .form-control
+        {
+            border-radius: 0;
+            border: none;
+            box-shadow: none;
+            border-bottom: 1px solid #ccc;
+            width: 80%;
+            margin: 0 auto 30px;
+        }
+        input[type="submit"] 
+        {
+            padding: 15px;
+            background-color: $firstColor;
+            border-radius: 0;
+            font-weight: bold;
+            font-size: 15px;
+            transition: all .3s ease-in-out;
+            &:hover 
+            {
+                background-color: #000;
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* End Header */ 

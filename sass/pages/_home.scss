@@ -1,0 +1,504 @@
+/* Start Social Media */
+
+.social-media
+{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 7px $descColor;
+    -moz-box-shadow: 0 2px 7px $descColor;
+    -o-box-shadow: 0 2px 7px $descColor;
+    box-shadow: 0 2px 7px $descColor;
+    @media (max-width: $maxMobile) 
+    {
+        text-align: center; 
+        padding: 20px 0;
+    }
+    h4 
+    {
+        font-weight: bold;
+        margin-bottom: 5px;
+        @media (max-width: $maxMobile) 
+        {
+            margin-bottom: 10px;
+        }
+    }
+    p 
+    {
+        color: $descColor;
+    }
+    i 
+    {
+        margin: 20px 12px;
+        color: $descColor;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        @media (max-width: $maxMobile) 
+        {
+            margin: 10px 12px;
+        }
+    }
+    .fa-facebook:hover
+    {
+        color: #3b5998;
+    }
+    .fa-twitter:hover
+    {
+        color: #1da1f2;
+    }
+    .fa-google-plus:hover
+    {
+        color: #dd4b39;
+    }
+    .fa-pinterest:hover
+    {
+        color: #bd081c;
+    }
+    .fa-instagram:hover
+    {
+        color: #405de6;
+    }
+    .fa-stumbleupon:hover
+    {
+        color: #eb4924;
+    }
+    .fa-rss:hover
+    {
+        color: #f26522;
+    }
+}
+
+/* End Social Media */
+
+/* Start Tabs Section */ 
+
+.tabs
+{
+    padding: 80px 0;
+    background-color: #f5f5f5;
+    @media (max-width: $maxMobile) 
+    {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .tab-switch
+    {
+        li 
+        {
+            text-align: center;
+            background-color: #333333;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            height: 110px;
+            margin-bottom: 2px;
+            line-height: 110px;
+            font-size: 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+        }
+        .selected,:hover
+        {
+            background-color: $firstColor;
+        }
+    }
+    .tabs-content
+    {
+        h3 
+        {
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            @media (max-width: $maxMobile) 
+            {
+                margin: 30px 0 15px;
+            }
+        }
+        p 
+        {
+            line-height: 2.5;
+            font-size: 18px;
+            color: $descColor;
+            @media (max-width: $maxMobile) 
+            {
+                line-height: 2;
+                font-size: 18px;
+            }
+        }
+        button 
+        {
+            @extend %button;
+            background-color: $firstColor;
+            @media (max-width: $maxMobile) 
+            {
+                margin: 0 auto;
+            }
+        }
+        div:not(.tab-one) 
+        {
+            display: none;
+        }
+    }
+    .sub-img
+    {
+        box-shadow: 7px 5px 7px $descColor;
+    }
+}
+
+/* End Tabs Section */
+
+/* Start Sublist Section */ 
+
+.sublist
+{
+    padding: 50px 0;
+    @media (max-width: $maxMobile) 
+    {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .sub-img 
+    {
+        box-shadow: 7px 5px 7px $descColor;
+        margin-top: 40px;
+    }
+    .sublist-head 
+    {
+        font-weight: bold;
+    }
+    .sublist-desc
+    {
+        color: $descColor;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+    .list-icon
+    {
+        i 
+        {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 37px;
+            color: $firstColor;
+            border: 2px solid $firstColor;
+            border-radius: 50%;
+            margin-right: 25px;
+            @media (max-width: $maxMobile) 
+            {
+                float: none !important;
+                margin: 10px 0;
+            }
+        }
+        .text-info 
+        {
+            h5 
+            {
+                font-weight: bold;
+                color: #000;
+            }
+            p 
+            {
+                margin-bottom: 30px;
+                color: $descColor;
+            }
+        }
+    }
+}
+
+/* End Sublist Section */
+
+/* Start Standard Picture */ 
+
+.standard-picture 
+{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    @media (max-width: $maxMobile) 
+    {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .sublist-head 
+    {
+        font-weight: bold;
+        margin-top: 40px;
+    }
+    p 
+    {
+        color: $descColor;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+    .sub-img 
+    {
+        box-shadow: 7px 5px 7px $descColor;
+    }
+}
+
+/* End Standard Picture */ 
+
+/* Start This Is Awesome */ 
+
+.awesome 
+{
+    padding: 60px 0;
+    @media (max-width: $maxMobile) 
+    {
+        padding: 20px 0;
+    }
+    .awesome-desc
+    {
+        margin-bottom: 50px;
+        color: $descColor;
+        @media (max-width: $maxMobile) 
+        {
+            margin-bottom: 30px;
+        }
+    }
+    .feat-box 
+    {
+        @media (max-width: $maxMobile) 
+        {
+            margin-bottom: 30px;
+        }
+    }
+    i 
+    {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 56px;
+        color: $firstColor;
+        border: 2px solid $firstColor;
+        border-radius: 50%;
+    }
+    h4 
+    {
+        font-weight: bold;
+        margin: 20px 0 ;
+    }
+    p 
+    {
+        color: $descColor;
+        line-height: 1.5;
+    }
+}
+
+/* End This Is Awesome */
+
+/* Start Pricing Options */ 
+
+.price-option 
+{
+    padding: 60px 0;
+    background-color: #f5f5f5;
+    @media (max-width: $maxMobile) 
+    {
+        padding: 20px 0;
+    }
+    .basic,
+    .enterprise
+    {
+        margin-top: 35px;
+    }
+    .price-desc
+    {
+        margin-bottom: 50px;
+        color: $descColor;
+        @media (max-width: $maxMobile) 
+        {
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+    }
+    .price-box 
+    {
+        background-color: #fff;
+        @media (max-width: $maxMobile) 
+        {
+            margin-bottom: 30px;
+        }
+        h4 
+        {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin: 0;
+            font-weight: bold;
+            border-bottom: 1px solid #ccc;
+        }
+        .option 
+        {
+            padding: 10px 0 20px;
+            background-color: #333;
+            border-bottom: 5px solid $firstColor;
+            .price 
+            {
+                font-size: 60px;
+                color: #fff;
+                display: block;
+                font-weight: bold;
+                .usd 
+                {
+                    font-size: 20px;
+                }
+            }
+            .period 
+            {
+                color: #adadad;
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+    }
+    .most-pop 
+    {
+        background-color: $firstColor;
+        color: #fff;
+        padding: 5px 10px 10px;
+        margin-bottom: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .configuration 
+    {
+        li 
+        {
+            padding: 20px;
+            border-bottom: 1px solid #f5f5f5;
+            color: #8c8c8c;
+            text-transform: uppercase;
+        }
+    }
+}
+
+/* End Pricing Options */
+
+/* Start Testimonials */
+
+.testimonials 
+{
+    padding: 60px 0;
+    @media (max-width: $maxMobile) 
+    {
+        padding: 20px 0;
+    }
+    h2 
+    {
+        @media (max-width: $maxMobile) 
+        {
+            font-size: 23px;
+            font-weight: bold;
+        }
+    }
+    .test-desc 
+    {
+        margin-bottom: 30px;
+        color: $descColor;
+        @media (max-width: $maxMobile) 
+        {
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+    }
+    .client-say 
+    {
+        background-color: #f5f5f5;
+        color: #8e8f93;
+        padding: 20px;
+        position: relative;
+        margin: 20px 0;
+        border-radius: 3%;
+        &::after
+        {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px;
+            border-color: #f5f5f5 transparent transparent;
+            position: absolute;
+            bottom: -28px;
+            left: 40px; 
+        }
+    }
+    .media 
+    {
+        @media (max-width: $maxMobile) 
+        {
+            margin-bottom: 40px;
+        }
+        .media-object 
+        {
+            border-radius: 50%;
+        }
+        .media-body 
+        {
+            .media-heading
+            {
+                font-weight: bold;
+                margin-top: 30px;
+            }
+            p 
+            {
+                color: $descColor;
+            }
+        }
+    }
+}
+
+/* End Testimonials */
+
+/* Start Stylish */ 
+
+.stylish
+{
+    background: url('../img/stylish/1.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 320px;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    .overlay 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: .5);
+        padding: 50px 0;
+    }
+    .head-border-center::after
+    {
+        background-color: #fff;
+    }
+    p 
+    {
+        margin: 30px 0;
+        color: $descColor;
+        @media (max-width: $maxMobile) 
+        {
+            font-size: 16px;
+            color: #ccc;
+        }
+    }
+    button 
+    {
+        @extend %button;
+        background-color: transparent;
+        border: 2px solid #fff;
+        margin: 10px auto;
+        &:hover
+        {
+            border: 2px solid #000;
+        }
+    }
+}    
+
+/* End Stylish */

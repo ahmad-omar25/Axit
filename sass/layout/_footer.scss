@@ -1,0 +1,50 @@
+/* Start Footer */ 
+
+.footer 
+{
+    background-color: #000;
+    padding: 15px 0;
+    i 
+    {
+        margin: 5px 10px;
+        color: $descColor;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+    .fa-facebook:hover
+    {
+        color: #3b5998;
+    }
+    .fa-twitter:hover
+    {
+        color: #1da1f2;
+    }
+    .fa-google-plus:hover
+    {
+        color: #dd4b39;
+    }
+    .fa-pinterest:hover
+    {
+        color: #bd081c;
+    }
+    .fa-instagram:hover
+    {
+        color: #405de6;
+    }
+    .fa-stumbleupon:hover
+    {
+        color: #eb4924;
+    }
+    .fa-rss:hover
+    {
+        color: #f26522;
+    }
+    p 
+    {
+        margin: 0;
+        color: $descColor;
+        font-size: 15px;
+    }
+}
+
+/* End Footer */
